@@ -1,0 +1,18 @@
+
+
+
+<h1>{{heroedos.nombre}}<br> <small>{{heroedos.aparicion}}</small></h1>
+<hr>
+
+
+
+<div class="card " style="width: 28rem;">
+    <img class="card-img-top" [src]="heroedos.img" alt="Card image cap">
+    <div class="card-body">
+      <h1 class="card-title">{{heroedos.nombre}}</h1>
+      <p class="card-text">{{heroedos.bio}}</p>
+      <a [routerLink]= "['/heroes']"  class="btn btn-danger btn-block">regresar</a>
+    </div>
+  </div>
+
+
